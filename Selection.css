@@ -1,0 +1,15 @@
+.Checkbox {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-left: 20px;
+    color: #ee2f2f;
+  }
+  
+  .Checkbox input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .Checkbox input[type="checkbox"]:checked + label {
+    color: #56375b;
+  }
+  

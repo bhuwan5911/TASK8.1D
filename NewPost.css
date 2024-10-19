@@ -1,0 +1,19 @@
+.NewPostBar input[type="text"],
+.NewPostBar textarea {
+  width: calc(100% - 30px);  /* Align with the padding and other elements */
+  padding: 15px;
+  margin: 0 auto 15px auto;  /* Center align inputs */
+  border-radius: 6px;
+  border: 1px solid #4ac3d3;
+  font-size: 1.1rem;
+  background-color: #a793e6;
+  color: #010101;
+  display: block;
+}
+
+.NewPostBar input[type="file"] {
+  margin-bottom: 15px;
+  width: calc(100% - 30px); /* Same width as other inputs */
+  display: block;
+  margin: 0 auto;  /* Align file input to the center */
+}
